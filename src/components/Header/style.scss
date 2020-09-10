@@ -1,0 +1,31 @@
+.control-header {
+    width: 100%;
+    height: 80px;
+    border-bottom: thin solid #000;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+    border: thin #000 solid;
+    border-radius: 50%;
+}
+
+.item:nth-child(n+2) {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.item:nth-child(3) {
+    margin: 15px 10px 0;
+}
+
+@for $i from 2 to 5 {
+    .item:nth-child(n + #{$i}) {
+        background: hsl($i * 25, 100%, 50%);
+    }
+}

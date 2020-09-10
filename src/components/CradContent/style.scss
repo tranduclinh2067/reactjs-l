@@ -1,0 +1,45 @@
+@mixin border_line {
+    border: thin solid #000;
+}
+
+.item-card {
+    @include border_line();
+
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+}
+
+.avatar-card {
+    @include border_line();
+    display: block;
+    margin: 0 auto 20px;
+    width: 90%;
+    height: 110px;
+    border-top: none;
+    border-bottom: none;
+    background: #2c2c2c;
+}
+
+.control-button-card {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+
+.control-button-card > div {
+    @include border_line();
+    width: 60px;
+    height: 20px;
+    float: left;
+    border-radius: 999px;
+    margin: 10px auto 0;
+}
+
+.control-button-card > div:nth-child(2) {
+    float: right;
+}

@@ -1,0 +1,76 @@
+@mixin block-center ($t, $b) {
+    display: block;
+    margin: $t auto $b
+}
+
+.control-login {
+    @include block-center(40px, 40px);
+
+    width: 650px;
+    height: 490px;
+
+    border: thin solid #000;
+    border-top: none; 
+    border-bottom: none; 
+
+    padding: 20px;
+
+}
+
+.avatar-login {
+    @include block-center(0, 20px);
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(44,44,44);
+    padding: 20px 0;
+}
+
+.label-input {
+    @include block-center(0, 0);
+
+    width: 300px;
+    text-align: center;
+
+}
+
+.label-input input {
+    @include block-center(10px, 10px);
+
+    width: 260px;
+    height: 35px;
+    border-radius: 999px;
+    border: thin solid #000;
+    padding: 10px;
+
+    outline: none;
+}
+
+
+.check-box {
+    @include block-center(0, 10px);
+
+    text-align: center;
+}
+
+.button-login {
+    @include block-center(0, 0);
+    
+        width: 200px;
+        height: auto;
+
+}
+
+
+.button-ok, .button-cancel{
+    @include block-center(10px, 0);
+    padding: 10px;
+
+    border: thin solid #000;
+    border-radius: 999px;
+
+    text-align: center;
+
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.control-footer {
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-top: thin solid #000;
+}
+
+.element_one, .element_two {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    border: thin solid #000;
+    border-radius: 50%;
+}
+
+.element_two {
+    float: right;
+    width: 350px;
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 999px;
+}

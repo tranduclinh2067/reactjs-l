@@ -17,7 +17,8 @@ class Main extends Component {
                 <MainContent position='right'> Box and content... </MainContent>
                 <MainContent position='left'> Box and content... </MainContent>
                 <MainContent position='right'> Box and content... </MainContent>
-                <MainContent position='left'> Box and content... </MainContent><MainContent position='right'> Box and content... </MainContent>
+                <MainContent position='left'> Box and content... </MainContent>
+                <MainContent position='right'> Box and content... </MainContent>
                 <MainContent position='left'> Box and content... </MainContent>
             </div>
         );

@@ -21,6 +21,12 @@
     border-top: none;
     border-bottom: none;
     background: #2c2c2c;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 110px;
+    }
 }
 
 .control-button-card {

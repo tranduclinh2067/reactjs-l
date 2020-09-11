@@ -10,15 +10,9 @@ class Directional extends Component {
         return (
             <div>
                 <Switch>
-                    <Route exact path="/">
-                        <Main />
-                    </Route>
-                    <Route exact path="/card">
-                        <Card />
-                    </Route>
-                    <Route exact path="/login">
-                        <Login />
-                    </Route>
+                    <Route exact='true' path='/' component={Main} />
+                    <Route path='/card' component={Card} />
+                    <Route path='/login' component={Login} />
                 </Switch>
             </div>
         );

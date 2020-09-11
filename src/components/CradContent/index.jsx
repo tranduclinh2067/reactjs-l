@@ -11,13 +11,15 @@ class CardContent extends Component {
 
     itemCard = () => (
         <div className='item-card'>
-            <div className='avatar-card'></div>
+            <div className='avatar-card'>
+                <img src={this.props.img} alt='img' />
+            </div>
             <div style={{
                     textAlign : 'center'
                 }}>
                 <h2 style={{
                     paddingBottom : '10px',
-                }}>{this.props.content}</h2>
+                }}>{this.props.title}</h2>
                 <p>{this.props.children}</p>
                 <div className='control-button-card'>
                     <div></div>

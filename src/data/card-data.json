@@ -1,0 +1,121 @@
+[{
+        "id": 1,
+        "title": "Consumer Services",
+        "content": "43-9961280",
+        "img": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+        "id": 2,
+        "title": "Consumer Durables",
+        "content": "94-8695480",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 3,
+        "title": "Consumer Services",
+        "content": "12-8396792",
+        "img": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+        "id": 4,
+        "title": "Energy",
+        "content": "86-1479046",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 5,
+        "title": "Basic Industries",
+        "content": "43-8110679",
+        "img": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+        "id": 6,
+        "title": "Capital Goods",
+        "content": "83-4140834",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 7,
+        "title": "Consumer Services",
+        "content": "85-2697484",
+        "img": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+        "id": 8,
+        "title": "Capital Goods",
+        "content": "29-8964729",
+        "img": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+        "id": 9,
+        "title": "Public Utilities",
+        "content": "23-2640977",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 10,
+        "title": "Finance",
+        "content": "97-6813315",
+        "img": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+        "id": 11,
+        "title": "Consumer Services",
+        "content": "79-8425616",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 12,
+        "title": "Technology",
+        "content": "30-3718294",
+        "img": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+        "id": 13,
+        "title": "Energy",
+        "content": "57-1839598",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 14,
+        "title": "Health Care",
+        "content": "96-8613471",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 15,
+        "title": "Consumer Services",
+        "content": "01-0161287",
+        "img": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+        "id": 16,
+        "title": "n/a",
+        "content": "75-8042016",
+        "img": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+        "id": 17,
+        "title": "Capital Goods",
+        "content": "74-7318575",
+        "img": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+        "id": 18,
+        "title": "Consumer Services",
+        "content": "55-8599480",
+        "img": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+        "id": 19,
+        "title": "Consumer Services",
+        "content": "66-7048492",
+        "img": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+        "id": 20,
+        "title": "n/a",
+        "content": "20-5402336",
+        "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    }
+]

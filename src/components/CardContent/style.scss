@@ -37,15 +37,19 @@
     padding: 0 20px;
 }
 
-.control-button-card > div {
+.control-button-card a {
     @include border_line();
-    width: 60px;
-    height: 20px;
+    width: 65px;
+    height: 30px;
     float: left;
     border-radius: 999px;
     margin: 10px auto 0;
+
+    text-decoration: none;
+    color: #2c2c2c;
+    line-height: 30px;
 }
 
-.control-button-card > div:nth-child(2) {
+.control-button-card a:nth-child(2) {
     float: right;
 }

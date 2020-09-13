@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './style.scss';
-import data from '../../data/card-data.json'; 
+import dataCard from '../../data/card-data.json'; 
 
-import CardContent from '../CradContent';
+import CardContent from '../CardContent';
 
 class Card extends Component {
     render() {
@@ -10,8 +10,8 @@ class Card extends Component {
             <div className='control-card'>
 
                 {
-                    data.map((value, key) => {
-                        return <CardContent key={key} title={value.title} img={value.img}>{value.content}</CardContent>
+                    dataCard.map((value, key) => {
+                        return <CardContent key={key} cardID={value.id} title={value.title} img={value.img}>{value.content}</CardContent>
                     })
                 }
                 

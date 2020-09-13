@@ -110,7 +110,7 @@ class MainContent extends Component {
             borderRight : 'thin solid #000',
             paddingRight : '30px'
             }}>
-            <div className='icon-content' style={{ float : this.props.position }}></div>
+            <div className='icon-content' style={{ float : 'left', background : this.props.color }}></div>
             <span style={{lineHeight : '40px', padding : '0 20px'}}>{this.props.children}</span>
         </div>
     );

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './style.scss';
 
+import slug from 'vietnamese-slug';
+
 class CardContent extends Component {
     constructor(props) {
         super(props);
@@ -22,8 +24,8 @@ class CardContent extends Component {
                 }}>{this.props.title}</h2>
                 <p>{this.props.children}</p>
                 <div className='control-button-card'>
-                    <div></div>
-                    <div></div>
+                    <a href={`/card/${slug(this.props.title)}-${this.props.cardID}.html`}>Access</a>
+                    <a href={`/card/${slug(this.props.title)}`}>Cancel</a>
                 </div>
             </div>
         </div>

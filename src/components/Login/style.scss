@@ -62,7 +62,13 @@
 
 }
 
+.button-ok {
+    
+    outline: none;
+    width: 200px;
 
+}
+    
 .button-ok, .button-cancel{
     @include block-center(10px, 0);
     padding: 10px;

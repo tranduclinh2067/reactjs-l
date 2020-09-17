@@ -11,7 +11,7 @@ class Directional extends Component {
         return (
             <div>
                 <Switch>
-                    <Route exact='true' path='/' component={Main} />
+                    <Route exact={true} path='/' component={Main} />
                     <Route path='/card/' component={Card} />
                     <Route path='/carddetail/:slug.:id.html' component={CardDetail} />
                     <Route path='/login' component={Login} />

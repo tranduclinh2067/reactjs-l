@@ -43,7 +43,7 @@ class CardDetail extends Component {
                                     }}>
                                         {
                                             dataCard.map((value, key) => {
-                                                if (value.id != parseInt(this.props.match.params.id)) {
+                                                if (value.id !== parseInt(this.props.match.params.id)) {
                                                     if (count < 4) {
                                                         count++;
                                                         return(
@@ -62,12 +62,14 @@ class CardDetail extends Component {
                                                         )
                                                     }
                                                 }
+                                                return true;
                                             })
                                         }
                                     </div>
                                 </div>
                             )
                         }
+                        return true;
                     })
                 }
             </div>

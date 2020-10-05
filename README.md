@@ -176,4 +176,4 @@ return true;
 
 ***
 
-![img](/README/reactjs.png)
+![img](/xmind/reactjs.png)

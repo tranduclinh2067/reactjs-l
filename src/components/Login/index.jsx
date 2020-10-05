@@ -36,6 +36,7 @@ class Login extends Component {
     }
 
     render() {
+        // isRedirect == true
         if(this.state.isRedirect) {
             console.log(this.state);
             return <Redirect to='/' />
